@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+#main{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+button{
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 35%;
+    padding: 14px 16px;
+    align-self: center;
+}
